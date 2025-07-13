@@ -1,0 +1,17 @@
+
+Java was conceived by James Gosling, Patrick Naughton, Chris Warth, Ed Frank, and Mike Sheridan at Sun Microsystems in 1991
+
+
+platform independent language that could be used to create software to be embedded in various
+ consumer electronic devices, such as toasters, microwave ovens, and remote controls.
+ As you can probably guess, many different types of CPUs are used as controllers
+
+The two languages that form Java’s closest ancestors are C and C++. As you may know,
+ C and C++ are among the most important computer languages ever invented and are
+ still in widespread use today. From C, Java inherits its syntax. Java’s object model is
+ adapted from C++. Java’s relationship to C and C++ is important for a number of
+ reasons. First, at the time of Java’s creation, many programmers were familiar with the
+ C/C++ syntax. Because Java uses a similar syntax, it was relatively easy for a C/C++
+ programmer to learn Java. This made it possible for Java to be readily utilized by the
+ pool of existing programmers, thus facilitating Java’s acceptance by the programming
+ community.
