@@ -15,3 +15,59 @@ The two languages that form Java’s closest ancestors are C and C++. As you may
  programmer to learn Java. This made it possible for Java to be readily utilized by the
  pool of existing programmers, thus facilitating Java’s acceptance by the programming
  community.
+
+First, the creation of Java simplified Internet
+ programming in general, acting as a catalyst that drew legions of programmers to the
+ Web. Second, Java innovated a new type of networked program called the applet that
+ changed the way the online world thought about content. Finally, and perhaps most
+ importantly, Java addressed some of the thorniest issues associated with the Internet:
+ portability and security
+
+At the time of Java’s creation, one of its most exciting features was the applet. An
+ applet is a special kind of Java program that is designed to be transmitted over the
+ Internet and automatically executed inside a Javacompatible web browser. 
+
+Q: What is C# and how does it relate to Java?
+ A: A few years after the creation of Java, Microsoft developed the C# language.
+ This is important because C# is closely related to Java. In fact, many of C#’s
+ features directly parallel Java. Both Java and C# share the same general C++style
+ syntax, support distributed programming, and utilize a similar object model. There
+ are, of course, differences between Java and C#, but the overall “look and feel” of
+ these languages is very similar. This means that if you already know C#, then
+ learning Java will be especially easy. Conversely, if C# is in your future, then your
+ knowledge of Java will come in handy.
+
+Java’s Magic: The Bytecode
+ The key that allowed Java to address both the security and the portability problems just
+ described is that the output of a Java compiler is not executable code. Rather, it is
+ bytecode. Bytecode is a highly optimized set of instructions designed to be executed by
+ what is called the Java Virtual Machine (JVM), which is part of the Java Runtime
+Environment (JRE). In essence, the original JVM was designed as an interpreter for
+ bytecode. This may come as a bit of a surprise because many modern languages are
+ designed to be compiled into CPUspecific, executable code due to performance
+ concerns. However, the fact that a Java program is executed by the JVM helps solve the
+ major problems associated with webbased programs. Here is why.
+ Translating a Java program into bytecode makes it much easier to run a program in a
+ wide variety of environments because only the JRE (which includes the JVM) needs to
+ be implemented for each platform. Once a JRE exists for a given system, any Java
+ program can run on it. Remember, although the details of the JRE will differ from
+ platform to platform, all JREs understand the same Java bytecode. If a Java program
+ were compiled to native code, then different versions of the same program would have
+ to exist for each type of CPU connected to the Internet. This is, of course, not a feasible
+ solution. Thus, the execution of bytecode by the JVM is the easiest way to create truly
+ portable programs.
+ The fact that a Java program is executed by the JVM also helps to make it secure.
+ Because the JVM is in control, it manages program execution. Thus, it is possible for
+ the JVM to create a restricted execution environment, called the sandbox.
+
+
+JAVA OOPS 
+
+
+Encapsulation
+ Encapsulation is a programming mechanism that binds together code and the data it
+ manipulates, and that keeps both safe from outside interference and misuse. In an
+ objectoriented language, code and data can be bound together in such a way that a
+ selfcontained black box is created. Within the box are all necessary data and code.
+ When code and data are linked together in this fashion, an object is created. In other
+ words, an object is the device that supports encapsulation
